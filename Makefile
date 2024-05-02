@@ -1,7 +1,7 @@
 CC = g++
 CFLAGS = -Wall -Wextra -std=c++11
 
-SRCS = main.cpp caesar.cpp
+SRCS = main.cpp caesar.cpp vigenere.cpp
 OBJS = $(SRCS:.cpp=.o)
 TARGET = cryptography
 
