@@ -1,7 +1,7 @@
 CC = g++
 CFLAGS = -Wall -Wextra -std=c++11
 
-SRCS = main.cpp caesar.cpp vigenere.cpp
+SRCS = main.cpp caesar.cpp vigenere.cpp rsa.cpp
 OBJS = $(SRCS:.cpp=.o)
 TARGET = cryptography
 
@@ -17,4 +17,3 @@ $(TARGET): $(OBJS)
 
 clean:
 	rm -f $(OBJS) $(TARGET)
-
