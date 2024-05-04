@@ -24,7 +24,10 @@ int main () {
     // vigenere cypher 
     case 2:
       std::cout << "Vigenere" << std::endl;
-      encryptedString = encryptVigenere(word);
+      std::string key;
+      std::cout <<"What is they key to encode it with" << std::endl;
+      std::cin >> key;
+      encryptedString = encryptVigenere(word, key);
       break;
   }
   // print out result

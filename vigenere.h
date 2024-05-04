@@ -4,6 +4,6 @@
 #include <string>
 #include <iostream>
 
-std::string encryptVigenere(std::string word);
+std::string encryptVigenere(std::string word, std::string key);
 
 #endif
