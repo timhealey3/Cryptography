@@ -5,6 +5,6 @@
 #include <string>
 #include <iostream>
 
-std::string encryptRSA(std::string word);
+std::string encryptRSA(std::string word, int userChoice);
 
 #endif
